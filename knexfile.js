@@ -41,15 +41,15 @@ module.exports = {
   },
 
   production: {
-    client: 'postgresql',
+    client: 'pg',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      database: 'davroh10d0mspk',
+      user:     'nlvonlychcrcne',
+      password: '871fa8f063ebea1abc395e76191af2877f36bd6e59e051103f4b75ed17147dd1'
     },
     pool: {
       min: 2,
-      max: 10
+      max: 20
     },
     migrations: {
       tableName: 'knex_migrations'
