@@ -2,6 +2,7 @@ const express = require('express');
 const routes = require('./routes')
 const { errors } = require('celebrate');
 const cors = require('cors');
+const dotenv = require('dotenv').config()
 
 const app = express();
 
