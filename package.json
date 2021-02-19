@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
+    "start": "node --env production src/server.js",
     "knex:migrate:production": "knex --knexfile knexfile.js --env production migrate:latest",
     "test": "cross-env NODE_ENV=test jest"
   },
