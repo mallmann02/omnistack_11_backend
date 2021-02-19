@@ -15,6 +15,10 @@ const SessionController = require('./controller/SessionController');
 
 const routes = express.Router();
 
+routes.get('/', (req, res) => {
+    res.json("Hello World")
+})
+
 routes.post('/sessions', SessionController.create);
 
 routes.get('/ongs', OngController.index);
