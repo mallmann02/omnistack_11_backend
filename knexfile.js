@@ -44,7 +44,8 @@ module.exports = {
     client: 'pg',
     connection: {
       database: 'davroh10d0mspk',
-      user:     'nlvonlychcrcne',
+      host: 'ec2-54-198-73-79.compute-1.amazonaws.com',
+      user: 'nlvonlychcrcne',
       password: '871fa8f063ebea1abc395e76191af2877f36bd6e59e051103f4b75ed17147dd1'
     },
     pool: {
