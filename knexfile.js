@@ -52,7 +52,7 @@ module.exports = {
       max: 20
     },
     migrations: {
-      tableName: 'knex_migrations'
+      directory: './src/database/migrations'
     }
   }
 
