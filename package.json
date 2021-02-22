@@ -6,6 +6,7 @@
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "knex:migrate:production": "knex --knexfile knexfile.js --env production migrate:latest",
+    "knex:migrate:stagging": "knex --knexfile knexfile.js --env stagging migrate:latest",
     "test": "cross-env NODE_ENV=test jest"
   },
   "license": "MIT",
