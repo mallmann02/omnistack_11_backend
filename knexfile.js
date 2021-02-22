@@ -31,6 +31,9 @@ module.exports = {
       user:     'mallmann02',
       password: 'leo_dbsec_0203@'
     },
+    ssl: {
+      rejectUnauthorized: false
+    },
     pool: {
       min: 2,
       max: 10
