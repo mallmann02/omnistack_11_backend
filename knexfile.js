@@ -26,11 +26,7 @@ module.exports = {
   
   stagging: {
     client: 'pg',
-    connection: {
-      database: 'mallmanndb',
-      user:     'mallmann02',
-      password: 'leo_dbsec_0203@'
-    },
+    connection: process.env.DATABASE_URL,
     ssl: {
       rejectUnauthorized: false
     },
