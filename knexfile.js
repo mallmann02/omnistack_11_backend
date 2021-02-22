@@ -25,18 +25,18 @@ module.exports = {
   },
   
   staging: {
-    client: 'postgresql',
+    client: 'pg',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      database: 'mallmanndb',
+      user:     'mallmann02',
+      password: 'leo_dbsec_0203@'
     },
     pool: {
       min: 2,
       max: 10
     },
     migrations: {
-      tableName: 'knex_migrations'
+      tableName: './src/database/migrations'
     }
   },
 
