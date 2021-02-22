@@ -24,7 +24,7 @@ module.exports = {
     useNullAsDefault: true,
   },
   
-  staging: {
+  stagging: {
     client: 'pg',
     connection: {
       database: 'mallmanndb',
